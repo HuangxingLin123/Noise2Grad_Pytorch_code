@@ -30,13 +30,16 @@ Unzip "ground_truth.zip" in './datasets/test/'. Use the code 'matlab_code_for_sy
 - Test with our pretrained model:
 
 #gaussian pretrained
-python test.py --dataroot ./datasets/test/noisy_test/ --name gaussian_pretrained --model denoise
+
+*python test.py --dataroot ./datasets/test/noisy_test/ --name gaussian_pretrained --model denoise*
 
 #poisson pretrained
-python test.py --dataroot ./datasets/test/noisy_test/ --name poisson_pretrained --model denoise
+
+*python test.py --dataroot ./datasets/test/noisy_test/ --name poisson_pretrained --model denoise*
 
 #speckle pretrained
-python test.py --dataroot ./datasets/test/noisy_test/ --name speckle_pretrained --model denoise
+
+*python test.py --dataroot ./datasets/test/noisy_test/ --name speckle_pretrained --model denoise*
 
 After the test, results are saved in './results/'.
 
